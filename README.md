@@ -1,4 +1,4 @@
-# CimaStudio v1.0 🏔️
+# CimaStudio 🏔️
 
 **CimaStudio** es una aplicación de escritorio desarrollada en C++ que integra el poder de la visión artificial de **OpenCV** con la robustez de la interfaz gráfica de **Qt6**.
 
@@ -10,7 +10,17 @@ El proyecto sigue una filosofía de desarrollo descendente: desde la **cima** (l
 *   **Gestión Eficiente**: Uso de C++17 y el sistema `AUTOMOC` de Qt para una gestión de señales y slots moderna.
 *   **Estructura Limpia**: Separación clara entre el punto de entrada, la definición de la interfaz y la lógica de implementación.
 
-## 📁 Estructura del Proyecto
+## 📖 Estructura del documento pdf (el tutorial)
+
+1. Introducción: El arte de enseñar a ver a las máquinas
+2. Anatomía Visual y Funcional de CimaStudio
+3. La Ingeniería detrás de la Escena	12
+4. Flujo de la Luz: La Arquitectura Base
+5. Ampliación de Conceptos	22
+6. 🧪 Anexo: El Laboratorio de CimaStudio
+7. Horizontes de CimaStudio: El siguiente nivel
+
+## 📁 Estructura del Proyecto (el código)
 
 *   `main.cpp`: Punto de entrada de la aplicación y ciclo de vida de `QApplication`.
 *   `cimastudio.h`: Definición de la clase principal, slots de Qt y estructura de la UI.
