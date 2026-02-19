@@ -1,0 +1,42 @@
+# --- Qt Creator / QMake ---
+Makefile*
+*.o
+*.obj
+*.user
+*.user.*
+*.Debug
+*.Release
+/debug/
+/release/
+
+# --- Carpetas de Compilación (Shadow Builds) ---
+# Ignora las carpetas automáticas build-NombreProyecto-Desktop...
+build-*/
+
+# --- Directorios de Compilación (CMake y General) ---
+# Bloquea cualquier carpeta llamada build en la raíz
+/build/
+build/
+
+# --- Ejecutables finales ---
+*.exe
+*.app
+*.so
+*.dll
+*.dylib
+
+# --- LibreOffice Writer ---
+*.odt
+
+# --- OpenCV / IDEs ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.ncb
+*.pdb
+*.sln
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
