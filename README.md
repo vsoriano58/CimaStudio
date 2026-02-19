@@ -4,6 +4,10 @@
 
 El proyecto sigue una filosofía de desarrollo descendente: desde la **cima** (la interfaz de usuario y abstracción) hasta la **base** (el manejo de memoria y procesamiento de datos).
 
+<p align="center">
+  <img src="cimastudio.png" width="400" alt="Captura de la interaz de CimaStudio">
+</p>
+
 ## 🚀 Características
 
 *   **Arquitectura Híbrida**: Integración fluida de `Qt6::Widgets` para el control y `OpenCV` para el motor visual.
