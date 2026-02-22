@@ -1,5 +1,9 @@
 # CimaStudio 🏔️
 
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C)](https://isocpp.org)
+[![Qt](https://img.shields.io/badge/Framework-Qt-41CD52)](https://www.qt.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org)
+
 **CimaStudio** es una aplicación de escritorio desarrollada en C++ que integra el poder de la visión artificial de **OpenCV** con la robustez de la interfaz gráfica de **Qt6**.
 
 El proyecto sigue una filosofía de desarrollo descendente: desde la **cima** (la interfaz de usuario y abstracción) hasta la **base** (el manejo de memoria y procesamiento de datos).
