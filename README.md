@@ -48,4 +48,4 @@ Asegúrate de tener instalados:
 ```bash
 mkdir build && cd build
 cmake ..
-cmake --build .
+make
